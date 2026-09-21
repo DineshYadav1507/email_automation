@@ -1,0 +1,1 @@
+import test from 'node:test'; import assert from 'node:assert/strict'; import {normalizeEmail} from '../src/importer.js'; test('normalizes email',()=>assert.equal(normalizeEmail(' USER@Example.COM '),'user@example.com'));
